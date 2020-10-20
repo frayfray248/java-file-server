@@ -62,7 +62,7 @@ public class Client {
 
     //main client method
     public static void main(String[] args) {
-        Client client = new Client("172.21.92.104", 12345, args[0]);
+        Client client = new Client("localhost", 12345, args[0]);
         client.getFile();
     }
 

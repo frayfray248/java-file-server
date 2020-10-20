@@ -8,7 +8,7 @@ import java.nio.channels.IllegalBlockingModeException;
 public class Server {
 
     //class variables
-    protected final String HOST = "172.21.97.158";
+    protected final String HOST = "localhost";
     protected int port;
     protected final int BUFF_SIZE = 1024;
 
